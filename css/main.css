@@ -95,4 +95,42 @@ div.content {
     -webkit-animation-delay: 2.5s;
 }
 
+.fa {
+    margin-right:5%;
+    margin-bottom:5%;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5%;
+}
 
+/* Add a hover effect*/
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-google {
+    background: #f44b42;
+    color: white;
+}
+
+/*Instagram*/
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
