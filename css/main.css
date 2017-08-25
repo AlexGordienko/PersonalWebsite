@@ -73,6 +73,10 @@ div.content {
     width: 350px;
 }
 
+.panel-default-bottom{
+    min-height:99px;
+}
+
 .round1{
     -webkit-animation-duration: 1s;
     -webkit-animation-delay: 0.5s;
