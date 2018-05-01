@@ -1,0 +1,2 @@
+Company Landing Page:
+As my first experience working with a startup, I designed and implemented a modern and user friendly frontend to represent the company. This front end acted as the landing page from where users could demo the product: an system to help providers transition between IPv4 and IPv6. I worked with Bootstrap and AngularJS during this project.
