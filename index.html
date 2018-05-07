@@ -34,6 +34,8 @@
     <!--</script>-->
 </head>
 <style>
+
+
     /*navbar*/
     .navbar {
         background-color: transparent;
@@ -62,7 +64,7 @@
         <div class="collapse navbar-collapse materil-navbar__collapse" id="navbar-navbar_primary">
             <ul class="nav navbar-nav navbar-right material-navbar__nav">
                 <li><a href="index.html" class="material-navbar__link">Home</a></li>
-                <li><a href="html/resume.html" class="material-navbar__link">Resume</a></li>
+                <li><a href="html/resume.html" class="material-navbar__link">Projects</a></li>
                 <li><a href="html/contact.html" class="material-navbar__link">Contact</a></li>
             </ul>
         </div>
@@ -80,7 +82,7 @@
     <div class="frameT">
         <div class="frameTC">
             <div class="content">
-                <a href="#0"><img class="" style="position: relative; z-index: 1; border-radius: 50%; height: 220px; width: 220px"  alt="avatar" src="images/profilePic2.jpg"/></a>
+                <a href="#"><img class="" style="position: relative; z-index: 1; border-radius: 50%; height: 220px; width: 220px"  alt="avatar" src="images/profilePic2.jpg"/></a>
 
             </div>
 
@@ -196,7 +198,7 @@
             <div class="">
                 <h3 style="text-align: center">Get To Know Me</h3>
                 <br><br>
-                <p style="text-align: center">Hello! My name is Alex Gordienko. I am a Computer Science specialist and Neuroscience major at University of Toronto. I am always on the lookout for new and interesting projects so feel free to contact me <a href="html/contact.html">here</a>. I build performance, mobile first (web) apps with clean user interfaces and scalable infrastructures. I enjoy rowing, table tennis and good movies. Thanks for stopping by, stay as long as you want, and feel free to check out the source code!  </p>
+                <p style="text-align: center">Hello! My name is Alex Gordienko. I am a full stack developer skilled in Angular, React and Node. I am always on the lookout for new and interesting projects so feel free to contact me <a href="html/contact.html">here</a>. I build performance, mobile first (web) apps with clean user interfaces and scalable infrastructures driving teams to hit key metrics. I enjoy rowing, table tennis and good movies. Thanks for stopping by, stay as long as you want, and feel free to check out the source code!  </p>
             </div>
         </div>
     </div>
@@ -205,72 +207,253 @@
         <div class="container">
             <div class="animated fadeIn round4" style="margin-top:70px; margin-bottom:40px; border-radius: 0">
                 <div class="">
-                    <h3 style="text-align: center">Projects</h3>
+                    <h3 style="text-align: center">Skills</h3>
                     <br><br>
-
-                    <div class="thumbnail material-card">
-                        <div class="row" style="padding:30px">
-                            <div class="col-md-4">
-                                <div class="container2">
-                                    <div class="element">
-                                        <a href="http://knowtworthy.com/" target="_blank" >
-                                            <img style="border: #b0bec5 1px solid;" src="images/Knowtworthy.png" height="230px" width="400px">
-                                        </a>
-                                    </div>
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-3 col-md-2">
+                            <div class="thumbnail material-card animated fadeIn round2">
+                                <header class="material-card__header">
+                                    <img src="./images/mongodb.png" style="height: 150px; margin:3px auto;display:block" class="material-card__img" alt="Thumbnail label"/>
+                                </header>
+                                <div class="material-card__content">
+                                    <h3 class="material-card__title" style="text-align: center;  margin-bottom: -10px; margin-top:-10px;">MongoDB</h3>
                                 </div>
                             </div>
-                            <div class="col-md-1"></div>
-                            <div class="col-md-7">
-                                <h3>Project Knowtworthy</h3>
-                                <br>
-                                <p><a href="http://knowtworthy.com/" target="_blank" >Knowtworthy</a> is an automated note taking system which takes in lecture or meeting videos and returns both a set of detailed notes as well as a brief summary of the contents. Using state-of-the-art machine learning and powerful heuristics, Knowtworthy aims to achieve simple and scalable access to quality educational content.</p>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-2">
+                            <div class="thumbnail material-card animated fadeIn round2">
+                                <header class="material-card__header">
+                                    <img src="./images/expressjslogo.png" style="height: 150px; margin:3px auto;display:block"class="material-card__img" alt="Thumbnail label"/>
+                                </header>
+                                <div class="material-card__content">
+                                    <h3 class="material-card__title" style="text-align: center;  margin-bottom: -10px; margin-top:-10px;">ExpressJS</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-2 hidden-xs">
+                            <div class="thumbnail material-card animated fadeIn round2">
+                                <header class="material-card__header">
+                                    <img src="./images/sails.png" style="height: 150px; margin:3px auto;display:block" class="material-card__img" alt="Thumbnail label"/>
+                                </header>
+                                <div class="material-card__content">
+                                    <h3 class="material-card__title" style="text-align: center;  margin-bottom: -10px; margin-top:-10px;">SailsJS</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-2">
+                            <div class="thumbnail material-card animated fadeIn round2">
+                                <header class="material-card__header">
+                                    <img src="./images/angular-icon.svg" style="height: 150px; margin:3px auto;display:block" class="material-card__img" alt="Thumbnail label"/>
+                                </header>
+                                <div class="material-card__content">
+                                    <h3 class="material-card__title" style="text-align: center;  margin-bottom: -10px; margin-top:-10px;">Angular</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-2">
+                            <div class="thumbnail material-card animated fadeIn round2">
+                                <header class="material-card__header">
+                                    <img src="./images/nodejs.png" class="material-card__img" style="height: 150px; margin:3px auto;display:block" alt="Thumbnail label"/>
+                                </header>
+                                <div class="material-card__content">
+                                    <h3 class="material-card__title" style="text-align: center; margin-bottom: -10px; margin-top:-10px;">NodeJS</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-2">
+                            <div class="thumbnail material-card animated fadeIn round2">
+                                <header class="material-card__header">
+                                    <img src="./images/react.png" class="material-card__img" style="height: 150px; margin:3px auto;display:block" alt="Thumbnail label"/>
+                                </header>
+                                <div class="material-card__content">
+                                    <h3 class="material-card__title" style="text-align: center; margin-bottom: -10px; margin-top:-10px;">React</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-2">
+                            <div class="thumbnail material-card animated fadeIn round2">
+                                <header class="material-card__header">
+                                    <img src="./images/redux.png" class="material-card__img" style="height: 150px; margin:3px auto;display:block" alt="Thumbnail label"/>
+                                </header>
+                                <div class="material-card__content">
+                                    <h3 class="material-card__title" style="text-align: center; margin-bottom: -10px; margin-top:-10px;">Redux</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-2">
+                            <div class="thumbnail material-card animated fadeIn round2">
+                                <header class="material-card__header">
+                                    <img src="./images/ionic.jpg" class="material-card__img" style="height: 150px; margin:3px auto;display:block" alt="Thumbnail label"/>
+                                </header>
+                                <div class="material-card__content">
+                                    <h3 class="material-card__title" style="text-align: center; margin-bottom: -10px; margin-top:-10px;">Ionic</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-2">
+                            <div class="thumbnail material-card animated fadeIn round2">
+                                <header class="material-card__header">
+                                    <img src="./images/python.png" class="material-card__img" style="height: 150px; margin:3px auto;display:block" alt="Thumbnail label"/>
+                                </header>
+                                <div class="material-card__content">
+                                    <h3 class="material-card__title" style="text-align: center; margin-bottom: -10px; margin-top:-10px;">Python</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-2 hidden-xs">
+                            <div class="thumbnail material-card animated fadeIn round2">
+                                <header class="material-card__header">
+                                    <img src="./images/typescript.png" class="material-card__img" style="height: 150px; margin:3px auto;display:block" alt="Thumbnail label"/>
+                                </header>
+                                <div class="material-card__content">
+                                    <h3 class="material-card__title" style="text-align: center; margin-bottom: -10px; margin-top:-10px;">TypeScript</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-2 hidden-xs">
+                            <div class="thumbnail material-card animated fadeIn round2">
+                                <header class="material-card__header">
+                                    <img src="./images/js.png" class="material-card__img" style="height: 150px; margin:3px auto;display:block" alt="Thumbnail label"/>
+                                </header>
+                                <div class="material-card__content">
+                                    <h3 class="material-card__title" style="text-align: center; margin-bottom: -10px; margin-top:-10px;">JavaScript</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-2 hidden-xs">
+                            <div class="thumbnail material-card animated fadeIn round2">
+                                <header class="material-card__header">
+                                    <img src="./images/html.png" class="material-card__img" style="height: 150px; margin:3px auto;display:block" alt="Thumbnail label"/>
+                                </header>
+                                <div class="material-card__content">
+                                    <h3 class="material-card__title" style="text-align: center; margin-bottom: -10px; margin-top:-10px;">HTML5</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-2 hidden-xs">
+                            <div class="thumbnail material-card animated fadeIn round2">
+                                <header class="material-card__header">
+                                    <img src="./images/css.png" class="material-card__img" style="height: 150px; margin:3px auto;display:block" alt="Thumbnail label"/>
+                                </header>
+                                <div class="material-card__content">
+                                    <h3 class="material-card__title" style="text-align: center; margin-bottom: -10px; margin-top:-10px;">CSS3</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-2 hidden-xs">
+                            <div class="thumbnail material-card animated fadeIn round2">
+                                <header class="material-card__header">
+                                    <img src="./images/heroku.jpg" class="material-card__img" style="height: 150px; margin:3px auto;display:block" alt="Thumbnail label"/>
+                                </header>
+                                <div class="material-card__content">
+                                    <h3 class="material-card__title" style="text-align: center; margin-bottom: -10px; margin-top:-10px;">Heroku</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-2 hidden-xs">
+                            <div class="thumbnail material-card animated fadeIn round2">
+                                <header class="material-card__header">
+                                    <img src="./images/aws.png" class="material-card__img" style="height: 150px; margin:3px auto;display:block" alt="Thumbnail label"/>
+                                </header>
+                                <div class="material-card__content">
+                                    <h3 class="material-card__title" style="text-align: center; margin-bottom: -10px; margin-top:-10px;">AWS</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-2 hidden-xs">
+                            <div class="thumbnail material-card animated fadeIn round2">
+                                <header class="material-card__header">
+                                    <img src="./images/gcp.png" class="material-card__img" style="height: 150px; margin:3px auto;display:block" alt="Thumbnail label"/>
+                                </header>
+                                <div class="material-card__content">
+                                    <h3 class="material-card__title" style="text-align: center; margin-bottom: -10px; margin-top:-10px;">GCP</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-2  hidden-xs">
+                            <div class="thumbnail material-card animated fadeIn round2">
+                                <header class="material-card__header">
+                                    <img src="./images/github.png" class="material-card__img" style="height: 150px; margin:3px auto;display:block" alt="Thumbnail label"/>
+                                </header>
+                                <div class="material-card__content">
+                                    <h3 class="material-card__title" style="text-align: center; margin-bottom: -10px; margin-top:-10px;">Github</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 col-sm-3 col-md-2  hidden-xs">
+                            <div class="thumbnail material-card animated fadeIn round2">
+                                <header class="material-card__header">
+                                    <img src="./images/bash.png" class="material-card__img" style="height: 150px; margin:3px auto;display:block" alt="Thumbnail label"/>
+                                </header>
+                                <div class="material-card__content">
+                                    <h3 class="material-card__title" style="text-align: center; margin-bottom: -10px; margin-top:-10px;">Bash</h3>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <!--<div class="thumbnail material-card">-->
+                        <!--<div class="row" style="padding:30px">-->
+                            <!--<div class="col-md-4">-->
+                                <!--<div class="container2">-->
+                                    <!--<div class="element">-->
+                                        <!--<a href="http://knowtworthy.com/" target="_blank" >-->
+                                            <!--<img style="border: #b0bec5 1px solid;" src="images/Knowtworthy.png" height="230px" width="400px">-->
+                                        <!--</a>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="col-md-1"></div>-->
+                            <!--<div class="col-md-7">-->
+                                <!--<h3>Project Knowtworthy</h3>-->
+                                <!--<br>-->
+                                <!--<p><a href="http://knowtworthy.com/" target="_blank" >Knowtworthy</a> is an automated note taking system which takes in lecture or meeting videos and returns both a set of detailed notes as well as a brief summary of the contents. Using state-of-the-art machine learning and powerful heuristics, Knowtworthy aims to achieve simple and scalable access to quality educational content.</p>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
 
-                    <div class="thumbnail material-card">
-                        <div class="row" style="padding:30px">
-                            <div class="col-md-4">
-                                <div class="container2">
-                                    <div class="element">
-                                        <a href="http://www.giftora.ca" target="_blank" >
-                                            <img style="border: #b0bec5 1px solid;" src="images/giftora.png" height="230px" width="400px">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-1"></div>
-                            <div class="col-md-7">
-                                <h3>Giftora</h3>
-                                <br>
-                                <p> <a href="http://www.giftora.ca" target="_blank" >Giftora</a> is an app for created curated gifts on demand. Built for Android and IOS on Ionic3 with Sails on Node, Giftora takes the stress out of gift giving and instead provides an excellent gift giving experience for both the giver and the receiver. The current release date is set for Monday May 7th. <br></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="thumbnail material-card">
-                        <div class="row" style="padding:30px">
-                            <div class="col-md-4">
+                    <!--<div class="thumbnail material-card">-->
+                        <!--<div class="row" style="padding:30px">-->
+                            <!--<div class="col-md-4">-->
+                                <!--<div class="container2">-->
+                                    <!--<div class="element">-->
+                                        <!--<a href="http://www.giftora.ca" target="_blank" >-->
+                                            <!--<img style="border: #b0bec5 1px solid;" src="images/giftora.png" height="230px" width="400px">-->
+                                        <!--</a>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <!--<div class="col-md-1"></div>-->
+                            <!--<div class="col-md-7">-->
+                                <!--<h3>Giftora</h3>-->
+                                <!--<br>-->
+                                <!--<p> <a href="http://www.giftora.ca" target="_blank" >Giftora</a> is an app for created curated gifts on demand. Built for Android and IOS on Ionic3 with Sails on Node, Giftora takes the stress out of gift giving and instead provides an excellent gift giving experience for both the giver and the receiver. The current release date is set for Monday May 7th. <br></p>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="thumbnail material-card">-->
+                        <!--<div class="row" style="padding:30px">-->
+                            <!--<div class="col-md-4">-->
 
-                                <div class="container2">
-                                    <div class="element">
-                                        <a href="http://www.explorecanadaimmigration.ca" target="_blank" >
-                                            <img style="border: #b0bec5 1px solid;" src="images/ExploreProject.png" height="230px" width="400px">
-                                        </a>
-                                    </div>
-                                </div>
+                                <!--<div class="container2">-->
+                                    <!--<div class="element">-->
+                                        <!--<a href="http://www.explorecanadaimmigration.ca" target="_blank" >-->
+                                            <!--<img style="border: #b0bec5 1px solid;" src="images/ExploreProject.png" height="230px" width="400px">-->
+                                        <!--</a>-->
+                                    <!--</div>-->
+                                <!--</div>-->
 
-                            </div>
-                            <div class="col-md-1"></div>
-                            <div class="col-md-7">
-                                <h3>MEAN Stack Web Application</h3>
-                                <br>
-                                <p>During my time at <a href="http://www.explorecanadaimmigration.ca" target="_blank"> Explore Canada</a>, a startup in Mississauga, I worked with <a href="https://www.linkedin.com/in/manav-patel-b0686711b/" target="_blank"> one other developer</a> to build both a landing page as well as an intelligent client processing form application to both streamline and automate as much of the startup's work as possible while constructing a professional and functional face of the company. As a result of this work the startup began to receive a heightened number of quality clients, illustrating the overwhelmingly positive effect our work had on the company. </p>
-                            </div>
-                        </div>
-                    </div>
+                            <!--</div>-->
+                            <!--<div class="col-md-1"></div>-->
+                            <!--<div class="col-md-7">-->
+                                <!--<h3>MEAN Stack Web Application</h3>-->
+                                <!--<br>-->
+                                <!--<p>During my time at <a href="http://www.explorecanadaimmigration.ca" target="_blank"> Explore Canada</a>, a startup in Mississauga, I worked with <a href="https://www.linkedin.com/in/manav-patel-b0686711b/" target="_blank"> one other developer</a> to build both a landing page as well as an intelligent client processing form application to both streamline and automate as much of the startup's work as possible while constructing a professional and functional face of the company. As a result of this work the startup began to receive a heightened number of quality clients, illustrating the overwhelmingly positive effect our work had on the company. </p>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
 
                     <br>
-                    <p style="text-align: center"><a href="html/resume.html">View MOAR Projects!</a></p>
+                    <p style="text-align: center"><a href="html/resume.html">View My Projects!</a></p>
                 </div>
             </div>
         </div>
@@ -279,7 +462,7 @@
         <div class="container">
             <div class="animated fadeIn round1" style="margin-top:70px; margin-bottom:70px; border-radius: 0">
                 <div id="recommendations">
-                    <h3 style="text-align: center">Recommendations</h3>
+                    <h3 style="text-align: center">Testimonials</h3>
                     <br><br>
                     <div class="row">
 
@@ -317,7 +500,7 @@
                     </div>
                 </div>
                 <br>
-                <p style="text-align: center"><a target="_blank" href="https://www.linkedin.com/in/alex-gordienko-a0b37bb2/">View All Recommendations</a> </p>
+                <p style="text-align: center">Further testimonials available upon <a target="_blank" href="mailto:alexgor99@gmail.com">request</a>.</p>
             </div>
         </div>
     </div>
