@@ -49,8 +49,8 @@
       <file leaf-file-name="top-secret-google-ux-challenge.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/top-secret-google-ux-challenge.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="490">
+              <caret line="36" column="7" lean-forward="false" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -329,7 +329,7 @@
       <workItem from="1538593350279" duration="6338000" />
       <workItem from="1541288645567" duration="2973000" />
       <workItem from="1543093808630" duration="591000" />
-      <workItem from="1549079213337" duration="2815000" />
+      <workItem from="1549079213337" duration="3636000" />
     </task>
     <task id="LOCAL-00001" summary="Added xd file.">
       <created>1549080147520</created>
@@ -345,11 +345,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549087702393</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated xd file.">
+      <created>1549305429693</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549305429693</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134157000" />
+    <option name="totallyTimeSpent" value="134978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1404" height="877" extended-state="0" />
@@ -383,7 +390,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added xd file." />
     <MESSAGE value="uncommented analytics." />
-    <option name="LAST_COMMIT_MESSAGE" value="uncommented analytics." />
+    <MESSAGE value="updated xd file." />
+    <option name="LAST_COMMIT_MESSAGE" value="updated xd file." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -776,8 +784,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/top-secret-google-ux-challenge.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="490">
+          <caret line="36" column="7" lean-forward="false" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
           <folding />
         </state>
       </provider>
