@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="940ba766-be55-4e78-836b-66a8a8d11d61" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/html/top-secret-google-ux-challenge.html" afterPath="$PROJECT_DIR$/html/top-secret-google-ux-challenge.html" />
+      <change beforePath="$PROJECT_DIR$/GoogleDesignSubmission.xd" afterPath="$PROJECT_DIR$/GoogleDesignSubmission.xd" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/html/top-secret-google-ux-challenge.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -329,7 +329,7 @@
       <workItem from="1538593350279" duration="6338000" />
       <workItem from="1541288645567" duration="2973000" />
       <workItem from="1543093808630" duration="591000" />
-      <workItem from="1549079213337" duration="1611000" />
+      <workItem from="1549079213337" duration="2815000" />
     </task>
     <task id="LOCAL-00001" summary="Added xd file.">
       <created>1549080147520</created>
@@ -338,11 +338,18 @@
       <option name="project" value="LOCAL" />
       <updated>1549080147520</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="uncommented analytics.">
+      <created>1549087702392</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549087702393</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132953000" />
+    <option name="totallyTimeSpent" value="134157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1404" height="877" extended-state="0" />
@@ -375,7 +382,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added xd file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added xd file." />
+    <MESSAGE value="uncommented analytics." />
+    <option name="LAST_COMMIT_MESSAGE" value="uncommented analytics." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -769,7 +777,7 @@
     <entry file="file://$PROJECT_DIR$/html/top-secret-google-ux-challenge.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
